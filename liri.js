@@ -3,6 +3,7 @@ let keys = require("./keys");
 let Spotify = require('node-spotify-api');
 let spotify = new Spotify(keys.spotify);
 const axios = require("axios");
+const moment = require("moment");
 
 const fs = require("fs");
 
@@ -30,7 +31,7 @@ const app = (com, para) => {
                         } else {
                             console.log(`Venue location: ${ele.venue.city}`);
                         }
-                        console.log(`${ele.datetime}`);
+                        console.log(`${moment(ele.datetime)}`);
                     })
                 })
                 .catch(err => {

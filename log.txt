@@ -4,3 +4,6 @@
 1 / 13 / 2020, 20:37:5:483: movie-this, Merry Christmas Mr Lawrence
 1 / 13 / 2020, 22:6:5:29: movie-this, Merry Christmas Mr Lawrence
 1 / 13 / 2020, 22:7:18:802: movie-this, Merry Christmas Mr Lawrence
+1 / 14 / 2020, 14:24:40:679: concert-this, Lizzo
+1 / 14 / 2020, 14:24:53:589: concert-this, Lizzo
+1 / 14 / 2020, 14:25:1:585: concert-this, Lizzo
