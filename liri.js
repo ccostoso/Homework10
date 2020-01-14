@@ -86,7 +86,8 @@ const app = (com, para) => {
 }
 
 app(command, parameter);
-const log = `${command}, ${parameter}\n`;
+const d = new Date();
+const log = `${d.getMonth() + 1} / ${d.getDate()} / ${d.getFullYear()}, ${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}:${d.getMilliseconds()}: ${command}, ${parameter}\n`;
 fs.appendFile("log.txt", log, "utf8", err => {
     if (err) throw err;
     console.log("log appended!");
